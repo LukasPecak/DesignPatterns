@@ -6,6 +6,7 @@ import org.lukas.javach.decorator.BeverageTest;
 import org.lukas.javach.factory.abstractfactory.ProductTest;
 import org.lukas.javach.factory.method.FactoryMethodTest;
 import org.lukas.javach.observer.SubjectTest;
+import org.lukas.javach.singleton.SingletonTest;
 
 /**
  * Created by Lukas on 10.10.2017.
@@ -17,6 +18,7 @@ import org.lukas.javach.observer.SubjectTest;
         SubjectTest.class,
         BeverageTest.class,
         FactoryMethodTest.class,
-        ProductTest.class
+        ProductTest.class,
+        SingletonTest.class
 })
 public class TestSuite {}
