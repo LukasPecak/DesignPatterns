@@ -2,6 +2,7 @@ package org.lukas.javach;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
+import org.lukas.javach.adapter.AdapterPatternImplementationTest;
 import org.lukas.javach.command.CommandTest;
 import org.lukas.javach.decorator.BeverageTest;
 import org.lukas.javach.factory.abstractfactory.ProductTest;
@@ -21,6 +22,7 @@ import org.lukas.javach.singleton.SingletonTest;
         FactoryMethodTest.class,
         ProductTest.class,
         SingletonTest.class,
-        CommandTest.class
+        CommandTest.class,
+        AdapterPatternImplementationTest.class
 })
 public class TestSuite {}
