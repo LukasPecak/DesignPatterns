@@ -9,8 +9,6 @@ import org.lukas.javach.facade.UserOfSubsystemFacade;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import static org.junit.Assert.*;
-
 /**
  * Created by Lukas on 04.11.2017.
  *
@@ -30,7 +28,7 @@ public class FacadePatternImplementationTest {
         device1 = new Device1Impl();
         device2 = new Device2Impl();
         device3 = new Device3Impl();
-        facade = new UserOfSubsystemFacade(device1, device2,device3);
+        facade = new UserOfSubsystemFacade(device1, device2, device3);
     }
 
     @Rule
