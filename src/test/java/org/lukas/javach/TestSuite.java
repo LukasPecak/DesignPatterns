@@ -10,6 +10,7 @@ import org.lukas.javach.factory.abstractfactory.ProductTest;
 import org.lukas.javach.factory.method.FactoryMethodTest;
 import org.lukas.javach.observer.SubjectTest;
 import org.lukas.javach.singleton.SingletonTest;
+import org.lukas.javach.template.method.TemplateAlgorithmTest;
 
 /**
  * Created by Lukas on 10.10.2017.
@@ -25,6 +26,7 @@ import org.lukas.javach.singleton.SingletonTest;
         SingletonTest.class,
         CommandTest.class,
         AdapterPatternImplementationTest.class,
-        FacadePatternImplementationTest.class
+        FacadePatternImplementationTest.class,
+        TemplateAlgorithmTest.class
 })
 public class TestSuite {}
